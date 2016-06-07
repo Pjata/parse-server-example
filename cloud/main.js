@@ -1,10 +1,9 @@
-var Buffer = require('buffer').Buffer;
 
 Parse.Cloud.define('hello', function(req, res) {
   res.success('Hi');
 });
 
-
+/*
 // Use Parse.Cloud.define to define as many cloud functions as you want.
 // For example:
 Parse.Cloud.define("getTime", function(request, response) {
@@ -85,4 +84,4 @@ Parse.Cloud.job("pushSubscribeNotification", function(request, status){
 		}
 	});
 });
-
+*/
