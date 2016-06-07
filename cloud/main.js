@@ -10,7 +10,7 @@ Parse.Cloud.define("getTime", function(request, response) {
   var today = new Date();
   response.success(today);
 });
-/*
+
 Parse.Cloud.define("sendReceipt", function(request, response){
 	var json = '{"receipt-data":"' + request.params.receipt + '", "password":"9e57eb32c34c40beb817e3cc93a20504"}';
 	console.log('https://sandbox.itunes.apple.com/verifyReceipt');
@@ -50,7 +50,7 @@ Parse.Cloud.define("isUserSubscriptionAlive", function(request, response) {
 	}
     });
 });
-
+/*
 Parse.Cloud.job("registerYahooUsers", function(request, status){
 	Parse.Cloud.useMasterKey();
 	var query = new Parse.Query(Parse.User);
