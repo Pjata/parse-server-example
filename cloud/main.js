@@ -3,14 +3,14 @@ Parse.Cloud.define('hello', function(req, res) {
   res.success('Hi');
 });
 
-/*
+
 // Use Parse.Cloud.define to define as many cloud functions as you want.
 // For example:
 Parse.Cloud.define("getTime", function(request, response) {
   var today = new Date();
   response.success(today);
 });
-
+/*
 Parse.Cloud.define("sendReceipt", function(request, response){
 	var json = '{"receipt-data":"' + request.params.receipt + '", "password":"9e57eb32c34c40beb817e3cc93a20504"}';
 	console.log('https://sandbox.itunes.apple.com/verifyReceipt');
