@@ -50,7 +50,7 @@ Parse.Cloud.define("isUserSubscriptionAlive", function(request, response) {
 	}
     });
 });
-/*
+
 Parse.Cloud.job("registerYahooUsers", function(request, status){
 	Parse.Cloud.useMasterKey();
 	var query = new Parse.Query(Parse.User);
@@ -84,4 +84,3 @@ Parse.Cloud.job("pushSubscribeNotification", function(request, status){
 		}
 	});
 });
-*/
